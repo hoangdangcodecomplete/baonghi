@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/baonghi/static/css/main.9be29fae.css",
-    "main.js": "/baonghi/static/js/main.91c25d40.js",
+    "main.css": "/baonghi/static/css/main.daf81060.css",
+    "main.js": "/baonghi/static/js/main.e1010f3f.js",
     "static/js/488.f97716a0.chunk.js": "/baonghi/static/js/488.f97716a0.chunk.js",
-    "static/media/SoCute-KimSungHwan-8756871.mp3": "/baonghi/static/media/SoCute-KimSungHwan-8756871.77e025e83e9deb3065bc.mp3",
+    "static/media/CuteHappyBirthdayMusic.mp3": "/baonghi/static/media/CuteHappyBirthdayMusic.ddf1af50e322e75d1e1b.mp3",
     "static/media/heartimagepink.jpg": "/baonghi/static/media/heartimagepink.bded11cdb7cf2974c0ee.jpg",
+    "static/media/happy-birthday-cute.gif": "/baonghi/static/media/happy-birthday-cute.b249b4537543adab2ef2.gif",
     "index.html": "/baonghi/index.html",
-    "main.9be29fae.css.map": "/baonghi/static/css/main.9be29fae.css.map",
-    "main.91c25d40.js.map": "/baonghi/static/js/main.91c25d40.js.map",
+    "main.daf81060.css.map": "/baonghi/static/css/main.daf81060.css.map",
+    "main.e1010f3f.js.map": "/baonghi/static/js/main.e1010f3f.js.map",
     "488.f97716a0.chunk.js.map": "/baonghi/static/js/488.f97716a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9be29fae.css",
-    "static/js/main.91c25d40.js"
+    "static/css/main.daf81060.css",
+    "static/js/main.e1010f3f.js"
   ]
 }

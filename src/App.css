@@ -1,21 +1,7 @@
 .App {
+  /* background-image: url("./heartimagepink.jpg"); */
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +10,144 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-logo {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  pointer-events: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.text-letter {
+  color: red;
+  background: white;
+  border-radius: 9px;
+  border-top-left-radius: 10px !important;
+  z-index: 900;
+  margin: 10px;
+}
+
+.text-letter-info {
+  padding: 9px 6px 9px 6px;
+  text-align: justify;
+  font-size: 12px;
+  white-space: pre-wrap;
+}
+
+.text-loves {
+  color: red;
+  text-align: center;
+}
+.text-display {
+  display: flex;
+  padding: 3px;
+}
+
+.gif-happy-birthday {
+  width: 130px;
+}
+.signature {
+  display: flex;
+  padding: 3px;
+}
+.text-start {
+  text-align: end;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.heart {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 0, 43);
+  height: 50px;
+  width: 50px;
+  transform: rotate(-45deg);
+}
+.heart::after {
+  background-color: rgb(255, 0, 43);
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  left: 25px;
+}
+.heart::before {
+  content: "";
+  background-color: rgb(255, 0, 43);
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  left: 0px;
+}
+
+#heart {
+  position: relative;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin: 0 auto;
+}
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #c33;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+#heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
   }
-  to {
-    transform: rotate(360deg);
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
   }
 }

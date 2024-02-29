@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/baonghi/static/css/main.f855e6bc.css",
+    "main.js": "/baonghi/static/js/main.f26a22ad.js",
+    "static/js/453.a2df1d98.chunk.js": "/baonghi/static/js/453.a2df1d98.chunk.js",
+    "static/media/logo.svg": "/baonghi/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/baonghi/index.html",
+    "main.f855e6bc.css.map": "/baonghi/static/css/main.f855e6bc.css.map",
+    "main.f26a22ad.js.map": "/baonghi/static/js/main.f26a22ad.js.map",
+    "453.a2df1d98.chunk.js.map": "/baonghi/static/js/453.a2df1d98.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f26a22ad.js"
+  ]
+}
